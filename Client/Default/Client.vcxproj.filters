@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{f3c11869-1866-4595-a67c-9d229717d301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{c6ad1d4c-dba5-4361-a8a4-2f1f2e303078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{49a626a6-f5f4-4c88-b724-0ec23b30f837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.SuperClass">
+      <UniqueIdentifier>{7e3bc516-2cc3-499e-b096-e393a77132a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.SuperClass\00.Base">
+      <UniqueIdentifier>{65ec2d2d-2e6f-4b46-97e5-a4c9e6bbd207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.System">
+      <UniqueIdentifier>{b2fc03dd-1d99-4acc-b4d6-b80826364571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.System\00.Device">
+      <UniqueIdentifier>{2faaa123-927c-4ecb-b339-918d80659606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.System\00.Device\Input_Device">
+      <UniqueIdentifier>{38c80a49-ca6c-46b9-a8f1-9d5ab085ee6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.System\00.Device\Graphic_Device">
+      <UniqueIdentifier>{ee5beb8c-5706-4a57-b001-71052d573ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility">
+      <UniqueIdentifier>{d8dbf9cf-439a-46ef-9c7b-0e04fde385e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\00.For.Timer">
+      <UniqueIdentifier>{e006bfa7-2925-4b39-b0a0-769540b71f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\01.For.Frame">
+      <UniqueIdentifier>{3f22e82d-147f-4f99-b3ac-36341024a9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\00.For.Timer\Manager">
+      <UniqueIdentifier>{288ce8dc-c374-45b9-8988-94fe71e6f39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\00.For.Timer\Timer">
+      <UniqueIdentifier>{a68c0c8d-8492-403b-a9e0-b458b4d74bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\01.For.Frame\Manager">
+      <UniqueIdentifier>{4871d47c-349c-475e-ad13-f4f4e33b93e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\01.For.Frame\Frame">
+      <UniqueIdentifier>{1f57ed79-e247-4580-b939-715b50d223a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{7852e5c3-1dee-4ae8-8899-2712278ee1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{77eeed82-fe5d-4e54-9ef6-b5b9c717e3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\02.Management">
+      <UniqueIdentifier>{bcef0b87-6010-40a7-b4aa-8455f77bc64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\02.Management\Scene">
+      <UniqueIdentifier>{4f9250e7-2838-4ff4-ac3b-63b84f746020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager">
+      <UniqueIdentifier>{884b43bb-e2e1-447e-8e98-bc209c2bc942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.GameObject">
+      <UniqueIdentifier>{8ff05226-3bcb-40c6-9753-334cde31b2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource">
+      <UniqueIdentifier>{066192be-bdaa-41d0-9804-8b26cffbe064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.GameObject\Layer">
+      <UniqueIdentifier>{8c969610-5b0c-4329-94ba-5286799889fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Renderer">
+      <UniqueIdentifier>{d7738498-2f5e-4f06-a5e7-bfff85dba1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource">
+      <UniqueIdentifier>{e2c322ad-400d-4f0a-8ba3-37cb3a53b052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Manager">
+      <UniqueIdentifier>{7936ea30-47c3-4ba0-81c1-727839683cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\VIBuffer">
+      <UniqueIdentifier>{f1f289d4-0e0b-4eec-b290-5427ca9373ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\VIBuffer\00.Buffer_RcCol">
+      <UniqueIdentifier>{11960925-f96e-491a-8ed8-847defa25ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\Texture">
+      <UniqueIdentifier>{e29f0b5a-66da-4fef-9464-b7ddd983ee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\VIBuffer\01.Buffer_RcTex">
+      <UniqueIdentifier>{dba0f3cb-016b-4f0b-b59b-ccf2faa80f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\99.Public">
+      <UniqueIdentifier>{5a4cf642-9a21-49c9-a4a4-06db183e0fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\99.Public\00.Loading">
+      <UniqueIdentifier>{4acb500a-5265-4f33-b3ae-d82339a549ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\04.For.Font">
+      <UniqueIdentifier>{686a8b43-3783-4048-8711-bc14433974e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\04.For.Font\Manager">
+      <UniqueIdentifier>{6715d793-d23d-4326-ac68-7e117485fffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\04.For.Font\Font">
+      <UniqueIdentifier>{0e4a720d-5253-4b2b-8d2f-219caf277957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.GameObject\Layer\GameObject">
+      <UniqueIdentifier>{872fe4b2-483e-4303-bfad-313c39689338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public">
+      <UniqueIdentifier>{7d0f85a6-9300-40c5-8467-04d19f1e815b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Logo">
+      <UniqueIdentifier>{d0198dea-bf49-40b3-8b22-102fccf6cc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Logo\BackGround">
+      <UniqueIdentifier>{d7caaec7-1fcc-4239-8d6d-ec5e6ef05bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Stage">
+      <UniqueIdentifier>{3f2697e6-580b-485e-80d7-f343cdee6752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Stage\BackGround">
+      <UniqueIdentifier>{dcc4df3c-0bf8-4118-931e-ba5fcb27c43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\00.Camera">
+      <UniqueIdentifier>{764339eb-d839-4733-b06d-6a48cb2849aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\00.Camera\00.FocusCam">
+      <UniqueIdentifier>{01b93140-60dc-4272-89f5-392385bf59de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\01.Player">
+      <UniqueIdentifier>{f9a23c92-c3d0-4ea1-b519-7a5ad47df72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\01.Player\Shadow">
+      <UniqueIdentifier>{6c561989-2d38-42d1-8312-961b3c8d851a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Scene_Logo">
+      <UniqueIdentifier>{1adf3b22-599b-41a2-a956-d4ee4072090e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Scene_Menu">
+      <UniqueIdentifier>{f753a7c3-1e41-4c94-bc6b-5c4cc4eebba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.Scene_Farm">
+      <UniqueIdentifier>{b206ea58-bd2c-4a9a-8c08-cc589b9816b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Scene_Stage">
+      <UniqueIdentifier>{dff152b8-d1b5-43f3-a2cc-1536682d7ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Scene_House">
+      <UniqueIdentifier>{3d618fd0-d85a-48c8-9d12-31db622a829f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Farm">
+      <UniqueIdentifier>{cfde2ea7-a461-42a5-a1f4-5f3f2bf0b83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Farm\BackGround">
+      <UniqueIdentifier>{cf88d867-385a-4217-9a43-39a897903465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.House">
+      <UniqueIdentifier>{cd288b1e-5c70-4820-b8a9-504fc746af77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.Scene_Town">
+      <UniqueIdentifier>{ebd60a07-57fa-4028-a9e8-d06e07322681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town">
+      <UniqueIdentifier>{47740c89-14d5-4205-8ecf-5d4ff727d17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.House\BackGround">
+      <UniqueIdentifier>{67a32a4c-fb66-4fe4-b609-ba354ebacf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\BackGround">
+      <UniqueIdentifier>{b5c2a0d5-44ce-424a-8839-1d66a78040af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Stage\Object">
+      <UniqueIdentifier>{df83bd39-d8a4-4f7e-8043-77288f3dfe6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.House\Object">
+      <UniqueIdentifier>{d5668990-513f-40d2-8769-10a892fd1c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\05.Scene_Shop">
+      <UniqueIdentifier>{c367c38e-14e7-4f01-b9eb-0e31c742da54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI">
+      <UniqueIdentifier>{53fb06b5-17c9-4497-97c8-57b4f500e400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\00.BasicUI">
+      <UniqueIdentifier>{fb1564bf-c46f-46a5-aea9-397bed99af75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\01.Mouse">
+      <UniqueIdentifier>{31f313d7-44e8-41df-ab1a-80216d4dcdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\02.Inventory">
+      <UniqueIdentifier>{3009c7c3-723c-4051-ae08-59e5c7d4b1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Farm\Object">
+      <UniqueIdentifier>{586dba6a-ecfc-4d52-bc25-91a74d9bee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\Shader">
+      <UniqueIdentifier>{8a1a5fc5-1ee2-48a9-a7ea-1359fd2857e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\Shader\Shader">
+      <UniqueIdentifier>{5b963bde-7f22-4e6e-b592-dac3e930f4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\Shader\ShaderFiles">
+      <UniqueIdentifier>{7175c917-127b-4fd1-87d3-3b39c9d2050c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\For.Resource\Resource\VIBuffer\02.Buffer_RcTexPos">
+      <UniqueIdentifier>{3e1ae010-23d5-482b-9170-34bfbc3c8373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Farm\Object2">
+      <UniqueIdentifier>{b697ca62-f2ce-4845-a351-4a8129a59491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\03.Farming">
+      <UniqueIdentifier>{94f8263a-2882-4da4-9a29-36512a9c67db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools">
+      <UniqueIdentifier>{74a5d241-358a-4756-b096-d817716d65ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\00.Hoe">
+      <UniqueIdentifier>{52cdaffa-5df4-4736-95db-faf2cd42e8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\02.Ax">
+      <UniqueIdentifier>{f82fa807-b6d0-44fd-86a5-2362f59fdb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\01.Pick">
+      <UniqueIdentifier>{472a3a17-5357-4040-9b46-7aa837afc79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\03.Sickle">
+      <UniqueIdentifier>{38af32cd-e0a5-4dfe-968d-3618d0bb61d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\04.WateringPot">
+      <UniqueIdentifier>{2057a487-f4c1-4bb7-9ea3-dab23990a7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\05.FishingRod">
+      <UniqueIdentifier>{16ecf662-517b-45ba-b6b0-e8c51e0c4809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\04.Tools\06.Sword">
+      <UniqueIdentifier>{e9859ce9-dc12-4efa-b293-9ef012a2cd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\05.Fishing">
+      <UniqueIdentifier>{2b7fcdf1-38e3-477a-a33e-839e7c4df40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Shop">
+      <UniqueIdentifier>{8ff8c547-fcd9-48e9-9671-bafcad6ef52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Shop\BackGround">
+      <UniqueIdentifier>{aca60db9-fc57-4cba-8563-6b04c8b4d2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Shop\Object">
+      <UniqueIdentifier>{7fc75faf-205a-4d02-bfda-8a5ea68a4b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\Object">
+      <UniqueIdentifier>{6fb64b8c-8636-4704-a0f0-7c14f7c56eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Farm\DropObject">
+      <UniqueIdentifier>{17ea55b1-b212-4fc8-abb3-1f23262c7279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\04.Get_Object">
+      <UniqueIdentifier>{d84df8b0-9d34-4fe4-9d4f-193375b828c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect">
+      <UniqueIdentifier>{5f774339-1521-4d03-af5c-241c6756ffc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\00.SceneChange">
+      <UniqueIdentifier>{aa4fe7c8-b49b-4630-bbf3-3f59bcf388de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\01.NightEffect">
+      <UniqueIdentifier>{4ab0ac31-dc12-4b0a-9cb1-a1c87d539127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\05.ShopUI">
+      <UniqueIdentifier>{1d478ab9-0e28-46bb-8737-34e47668e7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect">
+      <UniqueIdentifier>{4343e2b9-b627-4dda-8ce4-a3b0c79b48c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect\RainAlpha">
+      <UniqueIdentifier>{fb56f0e2-b175-4f7e-808e-1696a496d986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\03.ButterflyEffect">
+      <UniqueIdentifier>{d20ce1f0-7589-4f54-a739-e8d6d1727ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\06.Scene_Road">
+      <UniqueIdentifier>{3cd1ecbd-8d10-46b6-a642-359c7795db2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\07.Scene_Cave">
+      <UniqueIdentifier>{f97e9be4-4039-4ce5-b631-987f004939bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Road">
+      <UniqueIdentifier>{01df9ebf-2f61-48b6-8337-8efdcfda64b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Road\BackGround">
+      <UniqueIdentifier>{857a61e6-4a28-4235-8c3f-e9a235515305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cave">
+      <UniqueIdentifier>{e8d3becf-c31a-4fab-97d2-58816306dccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cave\BackGround">
+      <UniqueIdentifier>{2f620439-cbff-4f29-9e82-577957f8986f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cave\Object">
+      <UniqueIdentifier>{5727e305-7909-458d-821d-b4ccc9c9d9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cave\Object\GreenSlime">
+      <UniqueIdentifier>{7210e922-31d0-449c-8b35-b0536014496f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cave\Object\Mineral">
+      <UniqueIdentifier>{2ac5ee71-33e4-4c74-8a8e-17aa3cf19c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\03.Effect\04.Warning">
+      <UniqueIdentifier>{7b563682-800c-4453-a4d2-a812359ff1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Public\02.UI\06.Chest">
+      <UniqueIdentifier>{c371b7ef-a4fa-4ada-ab50-580aac71af53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC">
+      <UniqueIdentifier>{d30b8456-189e-4797-98c4-a340e3eefc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC\Alex">
+      <UniqueIdentifier>{227f8033-a764-4e61-a37b-18cf2bc29b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC\Lewis">
+      <UniqueIdentifier>{81ba1cf7-2366-4c72-a088-f64146111351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC\Penny">
+      <UniqueIdentifier>{2d3a24f6-d055-44df-9f93-be4eb0285fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC\Robin">
+      <UniqueIdentifier>{d95958ea-d878-40d0-b186-af55413275a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Town\NPC\Vincent">
+      <UniqueIdentifier>{b98d57ae-6c53-4e74-bbe9-ee5045ad64ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Utility\03.Manager\Sound_Manager">
+      <UniqueIdentifier>{c707da08-8b29-41fe-b161-ea59c81de226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Menu">
+      <UniqueIdentifier>{84ac9541-6f3c-4998-a657-1f12dff88302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Menu\BackGround">
+      <UniqueIdentifier>{aa7d1ad7-2915-4e1d-9cec-01accfc3f0d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Base.h">
+      <Filter>97.SuperClass\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Typedef.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Funtion.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Macro.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Graphic_Device.h">
+      <Filter>96.System\00.Device\Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Timer.h">
+      <Filter>95.Utility\00.For.Timer\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Timer_Manager.h">
+      <Filter>95.Utility\00.For.Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Functor.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frame.h">
+      <Filter>95.Utility\01.For.Frame\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frame_Manager.h">
+      <Filter>95.Utility\01.For.Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Logo.h">
+      <Filter>01.Scene\00.Scene_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Management.h">
+      <Filter>95.Utility\02.Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene.h">
+      <Filter>95.Utility\02.Management\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Manager.h">
+      <Filter>95.Utility\03.Manager\For.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Layer.h">
+      <Filter>95.Utility\03.Manager\For.GameObject\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Render_Manager.h">
+      <Filter>95.Utility\03.Manager\For.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resource.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resource_Manager.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Buffer_RcCol.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\00.Buffer_RcCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Texture.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Buffer_RcTex.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\01.Buffer_RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Logo.h">
+      <Filter>02.GameObject\00.Logo\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Stage.h">
+      <Filter>01.Scene\02.Scene_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Loading.h">
+      <Filter>01.Scene\99.Public\00.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DXFont.h">
+      <Filter>95.Utility\04.For.Font\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Font_Manager.h">
+      <Filter>95.Utility\04.For.Font\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Player.h">
+      <Filter>02.GameObject\99.Public\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject.h">
+      <Filter>95.Utility\03.Manager\For.GameObject\Layer\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Stage.h">
+      <Filter>02.GameObject\01.Stage\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera.h">
+      <Filter>02.GameObject\99.Public\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FocusCam.h">
+      <Filter>02.GameObject\99.Public\00.Camera\00.FocusCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Hoe.h">
+      <Filter>02.GameObject\99.Public\04.Tools\00.Hoe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BasicUI.h">
+      <Filter>02.GameObject\99.Public\02.UI\00.BasicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shadow.h">
+      <Filter>02.GameObject\99.Public\01.Player\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ax.h">
+      <Filter>02.GameObject\99.Public\04.Tools\02.Ax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Pick.h">
+      <Filter>02.GameObject\99.Public\04.Tools\01.Pick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sickle.h">
+      <Filter>02.GameObject\99.Public\04.Tools\03.Sickle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sword.h">
+      <Filter>02.GameObject\99.Public\04.Tools\06.Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WateringPot.h">
+      <Filter>02.GameObject\99.Public\04.Tools\04.WateringPot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Farm.h">
+      <Filter>01.Scene\04.Scene_Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Farm.h">
+      <Filter>02.GameObject\03.Farm\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_House.h">
+      <Filter>01.Scene\03.Scene_House</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Town.h">
+      <Filter>01.Scene\04.Scene_Town</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_House.h">
+      <Filter>02.GameObject\02.House\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Town.h">
+      <Filter>02.GameObject\04.Town\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_House.h">
+      <Filter>02.GameObject\02.House\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Stage.h">
+      <Filter>02.GameObject\01.Stage\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Inventory.h">
+      <Filter>02.GameObject\99.Public\02.UI\02.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mouse.h">
+      <Filter>02.GameObject\99.Public\02.UI\01.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Farm.h">
+      <Filter>02.GameObject\03.Farm\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shader.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Shader\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Buffer_RcTexPos.h">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\02.Buffer_RcTexPos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Farm2.h">
+      <Filter>02.GameObject\03.Farm\Object2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Farming.h">
+      <Filter>02.GameObject\99.Public\03.Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FishingRod.h">
+      <Filter>02.GameObject\99.Public\04.Tools\05.FishingRod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fishing.h">
+      <Filter>02.GameObject\99.Public\05.Fishing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Shop.h">
+      <Filter>01.Scene\05.Scene_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Shop.h">
+      <Filter>02.GameObject\05.Shop\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Shop.h">
+      <Filter>02.GameObject\05.Shop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Town.h">
+      <Filter>02.GameObject\04.Town\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Drop_Object.h">
+      <Filter>02.GameObject\03.Farm\DropObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Get_Object.h">
+      <Filter>02.GameObject\99.Public\02.UI\04.Get_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NightEffect.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\01.NightEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SceneChange.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\00.SceneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ShopUI.h">
+      <Filter>02.GameObject\99.Public\02.UI\05.ShopUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RainEffect.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RainAlpha.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect\RainAlpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ButterflyEffect.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\03.ButterflyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Road.h">
+      <Filter>01.Scene\06.Scene_Road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Road.h">
+      <Filter>02.GameObject\06.Road\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Cave.h">
+      <Filter>02.GameObject\07.Cave\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Cave.h">
+      <Filter>01.Scene\07.Scene_Cave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GreenSlime.h">
+      <Filter>02.GameObject\07.Cave\Object\GreenSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mineral.h">
+      <Filter>02.GameObject\07.Cave\Object\Mineral</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Warning.h">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\04.Warning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Chest.h">
+      <Filter>02.GameObject\99.Public\02.UI\06.Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NPC_Alex.h">
+      <Filter>02.GameObject\04.Town\NPC\Alex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NPC_Lewis.h">
+      <Filter>02.GameObject\04.Town\NPC\Lewis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NPC_Robin.h">
+      <Filter>02.GameObject\04.Town\NPC\Robin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NPC_Vincent.h">
+      <Filter>02.GameObject\04.Town\NPC\Vincent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NPC_Penny.h">
+      <Filter>02.GameObject\04.Town\NPC\Penny</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sound_Manager.h">
+      <Filter>95.Utility\03.Manager\Sound_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Menu.h">
+      <Filter>02.GameObject\01.Menu\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Menu.h">
+      <Filter>01.Scene\01.Scene_Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Base.cpp">
+      <Filter>97.SuperClass\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Graphic_Device.cpp">
+      <Filter>96.System\00.Device\Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Timer.cpp">
+      <Filter>95.Utility\00.For.Timer\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Timer_Manager.cpp">
+      <Filter>95.Utility\00.For.Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>95.Utility\01.For.Frame\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame_Manager.cpp">
+      <Filter>95.Utility\01.For.Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01.Scene\00.Scene_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Management.cpp">
+      <Filter>95.Utility\02.Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene.cpp">
+      <Filter>95.Utility\02.Management\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Manager.cpp">
+      <Filter>95.Utility\03.Manager\For.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Layer.cpp">
+      <Filter>95.Utility\03.Manager\For.GameObject\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Render_Manager.cpp">
+      <Filter>95.Utility\03.Manager\For.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resource.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resource_Manager.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Buffer_RcCol.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\00.Buffer_RcCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Buffer_RcTex.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\01.Buffer_RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02.GameObject\00.Logo\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01.Scene\02.Scene_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01.Scene\99.Public\00.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DXFont.cpp">
+      <Filter>95.Utility\04.For.Font\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Font_Manager.cpp">
+      <Filter>95.Utility\04.For.Font\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02.GameObject\99.Public\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject.cpp">
+      <Filter>95.Utility\03.Manager\For.GameObject\Layer\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Stage.cpp">
+      <Filter>02.GameObject\01.Stage\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FocusCam.cpp">
+      <Filter>02.GameObject\99.Public\00.Camera\00.FocusCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>02.GameObject\99.Public\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Hoe.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\00.Hoe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BasicUI.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\00.BasicUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shadow.cpp">
+      <Filter>02.GameObject\99.Public\01.Player\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ax.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\02.Ax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Pick.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\01.Pick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sickle.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\03.Sickle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\06.Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WateringPot.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\04.WateringPot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Farm.cpp">
+      <Filter>01.Scene\04.Scene_Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Farm.cpp">
+      <Filter>02.GameObject\03.Farm\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_House.cpp">
+      <Filter>01.Scene\03.Scene_House</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Town.cpp">
+      <Filter>01.Scene\04.Scene_Town</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_House.cpp">
+      <Filter>02.GameObject\02.House\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Town.cpp">
+      <Filter>02.GameObject\04.Town\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_House.cpp">
+      <Filter>02.GameObject\02.House\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Stage.cpp">
+      <Filter>02.GameObject\01.Stage\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Inventory.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\02.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mouse.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\01.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Farm.cpp">
+      <Filter>02.GameObject\03.Farm\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shader.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Shader\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Buffer_RcTexPos.cpp">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\VIBuffer\02.Buffer_RcTexPos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Farm2.cpp">
+      <Filter>02.GameObject\03.Farm\Object2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Farming.cpp">
+      <Filter>02.GameObject\99.Public\03.Farming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FishingRod.cpp">
+      <Filter>02.GameObject\99.Public\04.Tools\05.FishingRod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fishing.cpp">
+      <Filter>02.GameObject\99.Public\05.Fishing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Shop.cpp">
+      <Filter>01.Scene\05.Scene_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Shop.cpp">
+      <Filter>02.GameObject\05.Shop\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Shop.cpp">
+      <Filter>02.GameObject\05.Shop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Town.cpp">
+      <Filter>02.GameObject\04.Town\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Drop_Object.cpp">
+      <Filter>02.GameObject\03.Farm\DropObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Get_Object.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\04.Get_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NightEffect.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\01.NightEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SceneChange.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\00.SceneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShopUI.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\05.ShopUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RainEffect.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RainAlpha.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\02.RainEffect\RainAlpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ButterflyEffect.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\03.ButterflyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Road.cpp">
+      <Filter>01.Scene\06.Scene_Road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Road.cpp">
+      <Filter>02.GameObject\06.Road\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Cave.cpp">
+      <Filter>02.GameObject\07.Cave\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Cave.cpp">
+      <Filter>01.Scene\07.Scene_Cave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GreenSlime.cpp">
+      <Filter>02.GameObject\07.Cave\Object\GreenSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mineral.cpp">
+      <Filter>02.GameObject\07.Cave\Object\Mineral</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Warning.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\03.Effect\04.Warning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Chest.cpp">
+      <Filter>02.GameObject\99.Public\02.UI\06.Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC_Alex.cpp">
+      <Filter>02.GameObject\04.Town\NPC\Alex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC_Lewis.cpp">
+      <Filter>02.GameObject\04.Town\NPC\Lewis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC_Robin.cpp">
+      <Filter>02.GameObject\04.Town\NPC\Robin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC_Vincent.cpp">
+      <Filter>02.GameObject\04.Town\NPC\Vincent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NPC_Penny.cpp">
+      <Filter>02.GameObject\04.Town\NPC\Penny</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sound_Manager.cpp">
+      <Filter>95.Utility\03.Manager\Sound_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Menu.cpp">
+      <Filter>02.GameObject\01.Menu\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Menu.cpp">
+      <Filter>01.Scene\01.Scene_Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Default.fx">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Shader\ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Fog.fx">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Shader\ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Tile.fx">
+      <Filter>95.Utility\03.Manager\For.Resource\Resource\Shader\ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
